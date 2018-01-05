@@ -1,0 +1,11 @@
+f1=^ab.*$
+f2=[0-9][0-9][0-9]
+f3=cicamica
+f4=[A-Z][0-9]
+f5=javax[.]util
+f6=2016-12-28
+f7=INFO
+f8=WARN
+f9=valami*.semmi
+f10=192[.]168[.]
+notfound=.*HTTP\s404.*
