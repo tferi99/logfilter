@@ -70,8 +70,8 @@ public class FilterThread implements Runnable
             Matcher m = filter.getPattern().matcher(line);
             if (m.matches()) {
                 filter.found(line);
-                if (log.isDebugEnabled()) {
-                    log.debug("FOUND:" +  filter.getName() + ", " + filter.getPatternValue());
+                if (log.isTraceEnabled()) {
+                    log.trace("FOUND:" +  filter.getName() + ", " + filter.getPatternValue());
                 }
             }
         }
